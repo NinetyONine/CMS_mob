@@ -1,0 +1,37 @@
+a{ color: #AD0000;}  
+a.side { color: #AD0000; }  
+a:hover.side { color: #AD0000; } 
+a.button:hover, input.button:hover {background: #AD0000;} 
+
+header { background: #AD0000 url(../images/lines2.png) repeat; }
+
+nav {background:#AD0000 url(../images/lines2.png) repeat;} 
+nav ul li:hover {background: #AD0000 url(../images/lines.png);}   
+
+#menu ul li { background-color: #AD0000;}
+#menu li { border-right: 1px solid #910000; -moz-box-shadow: 1px 0 0 #9E0000; -webkit-box-shadow: 1px 0 0 #9E0000; box-shadow: 1px 0 0 #9E0000; }      
+#menu li:hover > ul { background: #9E0000; }   
+#menu ul { border-right: 1px solid #AD0000; }
+
+.triangle { border-color: transparent transparent transparent #870000; line-height: 0px; _border-color: #000000 #000000 #000000 #870000; _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');  }  
+.main-content .cap { background:#AD0000; }
+.sidebar .cap { background:#AD0000; }
+.sidebar .heading{background:#AD0000 url(../images/boxtitle.png) no-repeat left center;}   
+.admin-message { color: #AD0000; background: #F7DEDE url(../images/icons/get_info.png) 0.6em 0.4em no-repeat;}
+.news_info ul li.date { background: url(../images/icons/date.png) 0 -120px no-repeat; } 
+.news_info ul li.author { background: url(../images/icons/author.png) 0 -120px no-repeat; } 
+.news_info ul li.comments { background: url(../images/icons/comments.png) 0 -120px no-repeat; }     
+.news-pub-month { background:  #AD0000 url(../images/lines.png) repeat; }
+.news-pub-year { background:  #AD0000 url(../images/lines.png) repeat; }
+
+#latest-active-posts li:hover { border-bottom: 1px solid #AD0000;}
+
+#navigation a:hover { background-color: #AD0000; }   
+#navigation li.first-link.current-link a {  background-color: #AD0000; } 
+#navigation li.current-link a { color: #fff; 	background-color: #C40000; }
+
+ul.list li a:hover {color:#AD0000;}  
+
+footer { background: #AD0000 url(../images/lines2.png) repeat;}
+
+#copyright{ border-top: 3px solid #AD0000; background: #AD0000 url(../images/lines2.png) repeat;}   

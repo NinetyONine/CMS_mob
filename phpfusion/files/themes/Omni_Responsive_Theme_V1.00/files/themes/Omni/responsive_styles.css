@@ -1,0 +1,209 @@
+/*-------------------------------------------------------+
+| PHP-Fusion Content Management System
+| Copyright (C) 2002 - 2014 Nick Jones
+| http://www.php-fusion.co.uk/
++--------------------------------------------------------+
+| Name: Omni Theme
+| Filename: responsive_styles.php
+| Version: 1.00
+| Author: PHP-Fusion Mods UK
+| Developer & Designer: Craig
+| Site: http://www.phpfusionmods.co.uk
++--------------------------------------------------------+
+| This program is released as free software under the
+| Affero GPL license. You can redistribute it and/or
+| modify it under the terms of this license which you
+| can read by viewing the included agpl.txt or online
+| at www.gnu.org/licenses/agpl.html. Removal of this
+| copyright header is strictly prohibited without
+| written permission from the original author(s).
++--------------------------------------------------------*/
+
+html {  -webkit-text-size-adjust: none; }
+.video embed,
+.video object,
+.video iframe {
+   width: 100%;
+   height: auto;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	img{ max-width:100%; height: auto;
+	   	width: auto\9; /* ie8 */ }
+	header #search-box{margin:0 auto; text-align:center; width: 90%; margin-top:50px;} 
+	header #search-text {font-size: 12px;}
+	header #search-box input[type="text"] {width: 90%;padding: 8px 0 5px 0.1em;}
+	header #search-button { height: 32px;  width: 70px; font-size: 12px; line-height: 32px; }
+	nav { width:768px;height:auto;}
+
+	.switcher { padding-top: 15px; }
+
+	#menu a { float: left; padding: 10px 15px; text-decoration: none; }
+
+	footer .content{font-size: 12px;}
+	footer .heading{ font-size:14px; }
+
+	.main-content .content{font-size: 11px;}
+	.sidebar .content{font-size: 12px;}
+	.main-body { font-size: 12px; }
+	.main-content .cap {font-size: 16px; }
+	.sidebar .cap { font-size: 16px;  }
+
+	.news_info { font-size: 10px; padding-left: 1px;	 }
+	.news_info ul li { margin: 4px 5px 0 0; }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	img{
+	max-width:100%;
+	height: auto;
+	   	width: auto\9; /* ie8 */
+	}
+	header #logo, header #search-box{margin:0 auto; text-align:center; width: 150px;} 
+	header #search-text {font-size: 12px;}
+	header #search-box input[type="text"] {width: 90%;padding: 8px 0 5px 0.1em;}
+	header #search-button { width: 50px; font-size: 11px; }
+
+	nav {background: none; width:70%;height:auto;}
+	nav ul li {float: none;background:#006699 url(images/lines2.png);text-align:center; }
+	#menu a { float: left; padding: 10px 15px; text-decoration: none; }
+
+	footer .content{font-size: 12px;}
+	footer .heading{ color:#ffffff; padding-bottom:5px;font-size:12px; font-weight:normal; text-transform:uppercase;}
+
+	.right-copyright {float:left; text-align: left; padding-left: 24px; }
+	.left-copyright { float:left;  }
+
+	#content{background-color:#ffffff;}
+	.add {display: none;} 
+	.main-content .content{font-size: 12px;}
+	.sidebar .content{font-size: 12px;}
+	.main-content .cap {font-size: 14px; }
+	.sidebar .cap { font-size: 14px;  }
+	.main-body { font-size: 12px; }
+	.profile, .profile_category { width: 300px; }
+	.edit-profile { width: 300px; }
+
+	.news_info { font-size: 9px; padding-left: 1px;}
+	.news_info ul li { margin: 4px 5px 0 0; }
+	.news_info ul li.cat { display: none; }
+
+	}
+}
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	header #logo, header #logo, header #search-box{margin:0 auto; text-align:center; width: 160px; } 
+	header #search-text {font-size: 12px;}
+	header #search-box input[type="text"] {width: 90%;padding: 8px 0 5px 0.1em;}
+	header #search-button { width: 50px; font-size: 11px; }
+
+	footer .content{font-size: 12px;}
+	footer .heading{font-size:14px;}
+
+	.right-copyright {float:left; text-align: left;padding-left: 24px; }
+	.left-copyright { float:left;  }
+
+	.main-content .content{font-size: 12px;}
+	.sidebar .content{font-size: 12px;}
+	.main-content .cap {font-size: 14px; }
+	.sidebar .cap { font-size: 14px;  }
+	.main-body { font-size: 12px; }
+	.profile, .profile_category { width: 400px; }
+	.edit-profile { width: 400px; }
+
+	.news_info { font-size: 9px; padding-left: 1px; }
+	.news_info ul li { margin: 4px 5px 0 0;	 }
+	.news_info ul li.cat { display: none; }
+
+
+}
+
+
+@media only screen and (max-width: 320px) {
+
+	img{
+	max-width:100%;
+	height: auto;
+	   	width: auto\9; /* ie8 */
+	}
+	header #logo, header #logo, header #search-box{margin:0 auto; text-align:center; width: 150px; } 
+	header #search-text {font-size: 12px;}
+	header #search-box input[type="text"] {width: 90%;padding: 8px 0 5px 0.1em;}
+	header #search-button { width: 50px; font-size: 11px; }
+	nav {width:130px;height:auto;}
+
+	footer .content{font-size: 12px; width: 260px;}
+	footer .heading{font-size:12px; width: 260px;}
+
+	.right-copyright {float:left; text-align: left; padding-left: 23px; }
+	.left-copyright { float:left;  }
+
+	.main-content .content{font-size: 12px; }
+	.sidebar .content{font-size: 12px;}
+	.main-content .cap {font-size: 14px; }
+	.sidebar .cap { font-size: 14px;  }
+	.main-body { font-size: 12px; width: 260px;}
+	.profile, .profile_category { width: 260px; }
+	.edit-profile { width: 180px; }
+
+	.news_info { font-size: 9px; padding-left: 1px; }
+	.news_info ul li { margin: 4px 5px 0 0;	 }
+	.news_info ul li.cat { display: none; }
+	.resp-grid .coladmin                   { width: 260px; }
+
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+
+	.news_info ul li.comments { display: none; }
+	.add {display: none;} 
+
+	img{ max-width:100%; height: auto;
+	   	width: auto\9; /* ie8 */ }
+
+}
+
+	
+@media only screen and (min-width: 100px) and (max-width: 320px) {
+
+	.news_info ul li.comments { display: none; }
+	.news_info ul li.reads { display: none; }
+
+	#latest-active-posts { width: auto;}
+
+	img{max-width:100%; height: auto;
+	   	width: auto\9; /* ie8 */ }
+
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+
+	.switcher { display: none; }
+	.add {display: none;} 
+
+	img{max-width:100px; height: auto;
+	    width: auto\9; /* ie8 */}
+
+}
+
+	
+@media only screen and (min-width: 100px) and (max-width: 480px) {
+
+	.news-img-div { display: none; }
+	.news-category { display: none; }
+
+	img{ max-width:100px; height: auto;
+	    width: auto\9; /* ie8 */ }
+
+}
+
+	

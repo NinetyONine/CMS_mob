@@ -1,0 +1,247 @@
+/*-----------------------------------------+
+| resp-grid V1.0 
+|   By Craig www.phpfusionmods.co.uk
+|   Based on 960 Grid System ~ Core CSS.
+|   Learn more ~ http://960.gs/
+|------------------------------------------+
+
+
+|-------------Table of Contents------------+
+|  #Base 960 Grid
+|  #Tablet (Portrait)
+|  #Mobile (Portrait)
+|  #Mobile (Landscape)
+|-----------------------------------------*/
+
+
+/*Base 960 Grid*/
+
+    .resp-grid                                  { position: relative; width: 960px; margin: 0 auto; padding: 0;}
+    .resp-grid .row                             { margin-bottom: 10px;}
+	
+	.resp-grid .offleft					   	   { margin-left: 0px!important;}
+	.resp-grid .offright					       { margin-right: 0px!important;}
+	.resp-grid .offtop						   { margin-top: 0px!important;}
+	.resp-grid .offbottom					   { margin-bottom: 0px!important;}
+	
+
+	.resp-grid .col01,.resp-grid .col02,.resp-grid .col03,.resp-grid .col04,.resp-grid .col05,.resp-grid .col06,.resp-grid .col07,.resp-grid .col08,
+	.resp-grid .col09,.resp-grid .col10,.resp-grid .col11,.resp-grid .col12,.resp-grid .col13 ,.resp-grid .col14,.resp-grid .col15 ,.resp-grid .col16,
+	.resp-grid .col-1-3,.resp-grid .col-2-3 , .coladmin{ float: left; display: inline; margin:10px;}
+	
+    /* Base Grid */
+	.resp-grid .col01                    { width: 40px;  }
+    .resp-grid .col02                    { width: 100px; }
+    .resp-grid .col03                    { width: 160px; }
+    .resp-grid .col04                    { width: 220px; }
+    .resp-grid .col05                    { width: 280px; }
+    .resp-grid .col06                    { width: 340px; }
+    .resp-grid .col07                    { width: 400px; }
+    .resp-grid .col08                    { width: 460px; }
+    .resp-grid .col09                    { width: 520px; }
+    .resp-grid .col10                    { width: 580px; }
+    .resp-grid .col11                    { width: 640px; }
+    .resp-grid .col12                    { width: 700px; }
+    .resp-grid .col13                    { width: 760px; }
+    .resp-grid .col14                    { width: 820px; }
+    .resp-grid .col15                    { width: 880px; }
+    .resp-grid .col16                    { width: 940px; }
+
+	.resp-grid .coladmin                   { width: 200px; }
+	
+	
+    .resp-grid .col-1-3                  { width: 300px; }
+    .resp-grid .col-2-3                  { width: 620px; }
+
+    /* Offsets */
+    .resp-grid .offset01                   { margin-left: 60px;  }
+    .resp-grid .offset02                   { margin-left: 120px; }
+    .resp-grid .offset03                   { margin-left: 180px; }
+    .resp-grid .offset04                   { margin-left: 240px; }
+    .resp-grid .offset05                   { margin-left: 300px; }
+    .resp-grid .offset06                   { margin-left: 360px; }
+    .resp-grid .offset07                   { margin-left: 420px; }
+    .resp-grid .offset08                   { margin-left: 480px; }
+    .resp-grid .offset09                   { margin-left: 540px; }
+    .resp-grid .offset10                   { margin-left: 600px; }
+    .resp-grid .offset11                   { margin-left: 660px; }
+    .resp-grid .offset12                   { margin-left: 720px; }
+    .resp-grid .offset13                   { margin-left: 780px; }
+    .resp-grid .offset14                   { margin-left: 840px; }
+    .resp-grid .offset15                   { margin-left: 900px; }
+
+
+
+/*--------------Tablet (Portrait)*/
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+        header #search-box {position: relative;width: 200px;margin-top:50px;}
+
+header #search-text {font-size: 13px;color: #ddd;background: transparent;}
+header #search-box input[type="text"] {width: 80%;padding: 5px 0 5px 1em;color: #333;outline: none;}
+header #search-button {position: absolute;top: 0;right: 0;height: 27px;width: 80px;font-size: 13px;color: #fff;text-align: center;line-height: 26px;background-color: #999;cursor: pointer;border:0px;}
+
+		.resp-grid                          { width: 768px; }
+
+		.resp-grid .col01,.resp-grid .col02,.resp-grid .col03,.resp-grid .col04,.resp-grid .col05,.resp-grid .col06,.resp-grid .col07,.resp-grid .col08,
+		.resp-grid .col09,.resp-grid .col10,.resp-grid .col11,.resp-grid .col12,.resp-grid .col13 ,.resp-grid .col14,.resp-grid .col15 ,.resp-grid .col16,
+		.resp-grid .col-1-3,.resp-grid .col-2-3 { margin: 10px;  }
+		
+        .resp-grid .col01                   { width: 28px; }
+        .resp-grid .col02                   { width: 76px; }
+        .resp-grid .col03                   { width: 124px; }
+        .resp-grid .col04                   { width: 172px; }
+        .resp-grid .col05                   { width: 220px; }
+        .resp-grid .col06                   { width: 268px; }
+        .resp-grid .col07                   { width: 316px; }
+        .resp-grid .col08                   { width: 364px; }
+        .resp-grid .col09                   { width: 412px; }
+        .resp-grid .col10                   { width: 460px; }
+        .resp-grid .col11                   { width: 508px; }
+        .resp-grid .col12                   { width: 556px; }
+        .resp-grid .col13                   { width: 604px; }
+        .resp-grid .col14                   { width: 652px; }
+        .resp-grid .col15                   { width: 700px; }
+        .resp-grid .col16                   { width: 748px; }
+
+		.resp-grid .coladmin                   { width: 150px; }
+		
+        .resp-grid .col-1-3                { width: 236px; }
+        .resp-grid .col-2-3                { width: 492px; }
+
+        /* Offsets */ 
+        .resp-grid .offset01                 { margin-left: 48px; }
+        .resp-grid .offset02                 { margin-left: 96px; }
+        .resp-grid .offset03                 { margin-left: 144px; }
+        .resp-grid .offset04                 { margin-left: 192px; }
+        .resp-grid .offset05                 { margin-left: 240px; }
+        .resp-grid .offset06                 { margin-left: 288px; }
+        .resp-grid .offset07                 { margin-left: 336px; }
+        .resp-grid .offset08                 { margin-left: 384px; }
+        .resp-grid .offset09                 { margin-left: 432px; }
+        .resp-grid .offset10                 { margin-left: 480px; }
+        .resp-grid .offset11                 { margin-left: 528px; }
+        .resp-grid .offset12                 { margin-left: 576px; }
+        .resp-grid .offset13                 { margin-left: 624px; }
+        .resp-grid .offset14                 { margin-left: 672px; }
+        .resp-grid .offset15                 { margin-left: 720px; }
+    }
+
+
+/*--------------Mobile (Portrait)*/
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+        .resp-grid { width: 300px; }
+
+		.resp-grid .col01,.resp-grid .col02,.resp-grid .col03,.resp-grid .col04,.resp-grid .col05,.resp-grid .col06,.resp-grid .col07,.resp-grid .col08,
+		.resp-grid .col09,.resp-grid .col10,.resp-grid .col11,.resp-grid .col12,.resp-grid .col13 ,.resp-grid .col14,.resp-grid .col15 ,.resp-grid .col16,
+		.resp-grid .col-1-3,.resp-grid .col-2-3, .resp-grid .coladmin   {margin: 10px 0; }
+		
+        .resp-grid .col01,
+        .resp-grid .col02,
+        .resp-grid .col03,
+        .resp-grid .col04,
+        .resp-grid .col05,
+        .resp-grid .col06,
+        .resp-grid .col07,
+        .resp-grid .col08,
+        .resp-grid .col09,
+        .resp-grid .col10,
+        .resp-grid .col11,
+        .resp-grid .col12,
+        .resp-grid .col13,
+        .resp-grid .col14,
+        .resp-grid .col15,
+        .resp-grid .col16,
+        .resp-grid .col-1-3,
+        .resp-grid .col-2-3  { width: 300px; padding-left: 5px; }
+.resp-grid .coladmin                   { width: 100%; padding-left: 5px; }
+        /* Offsets */
+        .resp-grid .offset01,
+        .resp-grid .offset02,
+        .resp-grid .offset03,
+        .resp-grid .offset04,
+        .resp-grid .offset05,
+        .resp-grid .offset06,
+        .resp-grid .offset07,
+        .resp-grid .offset08,
+        .resp-grid .offset09,
+        .resp-grid .offset10,
+        .resp-grid .offset11,
+        .resp-grid .offset12,
+        .resp-grid .offset13,
+        .resp-grid .offset14,
+        .resp-grid .offset15 { margin-left: 0; }
+
+    }
+
+
+/*--------------Mobile (Landscape)*/
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .resp-grid { width: 420px; }
+	
+        .resp-grid .col01,.resp-grid .col02,.resp-grid .col03,.resp-grid .col04,.resp-grid .col05,.resp-grid .col06,.resp-grid .col07,.resp-grid .col08,
+		.resp-grid .col09,.resp-grid .col10,.resp-grid .col11,.resp-grid .col12,.resp-grid .col13 ,.resp-grid .col14,.resp-grid .col15 ,.resp-grid .col16,
+		.resp-grid .col-1-3,.resp-grid .col-2-3 {margin: 10px 0; }
+
+        .resp-grid .col01,
+        .resp-grid .col02,
+        .resp-grid .col03,
+        .resp-grid .col04,
+        .resp-grid .col05,
+        .resp-grid .col06,
+        .resp-grid .col07,
+        .resp-grid .col08,
+        .resp-grid .col09,
+        .resp-grid .col10,
+        .resp-grid .col11,
+        .resp-grid .col12,
+        .resp-grid .col13,
+        .resp-grid .col14,
+        .resp-grid .col15,
+        .resp-grid .col16,
+        .resp-grid .col-1-3,
+        .resp-grid .col-2-3 { width: 420px; }
+		
+    }
+	
+
+/* #Clearing
+================================================== */
+
+/* Self Clearing Goodness */
+.resp-grid:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}

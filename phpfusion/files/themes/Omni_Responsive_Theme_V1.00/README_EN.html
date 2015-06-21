@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
+<html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
+<head>
+<meta name="description" content="PHP-Fusion Mods UK Readme" />
+<meta name="author" content="PHP-Fusion Mods UK" />
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+<title>Omni Responsive Theme README EN</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+                  body{margin:0;background:#eee}
+      #fpage{background:#eee url(img/thbkg.jpg) repeat-x center top}
+      #opage{position:relative;margin:0 auto;width:860px}
+      #ipage{background:#fff;margin:3px;border:3px solid #fff}
+      .titlebar{border:1px solid #bac2cc; background:#f68504;}
+      .titletext{margin-left: 17px; padding:0; font-size: 14px; font-weight: bold; color:#04688d}
+      .textbox, .infobox{padding:20px 25px;background:#edeff2;border-left:1px solid #bac2cc;border-right:1px solid #bac2cc;border-bottom:0px;border-top:1px solid #fff}
+      .infobox{font-size: 14px;  font-weight: normal; color: #56667d;border-top:1px solid #bac2cc}
+           .infobox2{  float:right; font-size: 14px; padding-top: 0px;   border-left:1px solid #bac2cc font-weight: normal; color: #56667d;}
+           .infobox3{  font-size: 14px; line-height: 20px; font-weight: normal; color: #56667d;}
+           .infobox4{  float:right; font-size: 14px; line-height: 20px; font-weight: normal; color: #56667d;}
+            .infobox5{font-size: 14px;  font-weight: normal; color: #56667d; padding:20px 25px; background:#edeff2; border-left:1px solid #bac2cc; border-right:1px solid #bac2cc; border-bottom:1px solid #bac2cc;  border-top:1px solid #fff;}
+      #logo{position:relative;width:100%;height:140px}
+                        p {padding: 0; margin: 0}
+                        h1, h2, h3, h4, h5, h6, p, li {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+                        td {vertical-align:top}
+                        ul, ol {font-size: 12px; line-height: 20px; font-weight: normal; color: #56667d; margin: 0; margin-bottom: 10px}
+                        .title, .date {text-shadow: #8aa3c6 0px 1px 0px}                       
+                        .textshadow {text-shadow: #ccc 0px 1px 0px}
+                        .trxtshadow-2 {text-shadow: #768296 0px -1px 0px}
+                        a {color:#192c45;text-decoration:none}
+/*]]>*/
+</style>
+
+<style type="text/css">
+/*<![CDATA[*/
+ p.c3 {font-size: 11px; line-height: 20px; font-weight: normal; color: #56667d; margin: 0; margin-bottom: 10px}
+ p.c2 {font-size: 12px; line-height: 20px; font-weight: normal; color: #56667d; margin: 0; margin-bottom: 10px}
+ p.c1 {font-size: 12px; line-height: 20px; font-weight: normal; color: #56667d; margin:10px 0}
+/*]]>*/
+</style>
+</head>
+<body>
+<!-- README BODY BEGIN -->
+<div id="fpage">
+<div id="opage">
+<div id="ipage">
+<!-- INFORMATION -->
+<div class="infobox"><img class="logo" border="0" src="http://www.phpfusionmods.co.uk/images/php-fusion-mods-logo.png" alt="PHP-Fusion Mods UK" />
+<div class="infobox2">
+<p><strong>Addon Name:</strong> Omni Responsive Theme</p>
+<p><strong>Version:</strong> v1.00</p>
+<p><strong>PHP-Fusion Version Compatibility:</strong> v7.02.xx</p>
+<p><strong>Author:</strong>PHP-Fusion Mods UK</p>
+<p><strong>License:</strong> <a href="http://www.fsf.org/licensing/licenses/agpl-3.0.html">GNU Affero GPL</a> v3.</p>
+</div>
+</div>
+<!-- DESCRIPTION -->
+<div class="titlebar">
+<h3 class="textshadow titletext">Description</h3>
+</div>
+<div class="textbox">
+<p class="c1">Omni Responsive Theme is a modern responsive theme with colour switcher featuring 4 colours.  <br /><strong>Features</strong><br />
+ 2 Columns<br />
+Responsive*, Html5, Css3, 960Grid System<br />
+Responsive Navigation Menu (Changes to Selector if Screen is smaller than 768px) <br />
+Features Colour Switcher for 4 different colour options. (Blue, Red, Green, Grey)<br />
+News Cat Image or CSS News Datestamp Option<br />
+Footer Menus with Last Seen Users, About us and Connect<br />
+
+</p>
+</div>
+<!-- INSTALLATION -->
+<div class="titlebar">
+<h3 class="textshadow titletext">Install</h3>
+</div>
+<div class="textbox">
+<p class="c2">Upload the <strong>/themes/</strong> folder to your sites <strong>/themes/</strong>folder via FTP.<br />Done!
+</p>
+</div>
+<!-- USAGE -->
+<div class="titlebar">
+<h3 class="textshadow titletext">Usage</h3>
+</div>
+<div class="textbox">
+<p class="c2">
+<strong>SubMenu Usage</strong><br />
+In the file Omni/includes/nav.php you can enable or disable the Superfish dropdown menu find  $menu = 1; change to 0 to disable it.<br /><br /> 
+To add a dropdown link in header...
+<ol>
+<li>In site Links admin Add or edit existing link and add <strong>%submenu%</strong> before the Link Name and select sub-header only.</li>
+<li>All links after this will appear in this dropdown menu. </li>
+<li>To end just add <strong>%endmenu%</strong> in front of the last Link Name in the list.</li>
+<li>If you want to make a submenu without the submenu header link to be a link change the Link URL to # it will then make the submenu header link to an anchor<br />
+<br />
+Note: If <strong>%submenu%</strong> visibility is set to eg. Members the <strong>%endmenu%</strong> need to be set to Members as well.</li>
+</ol>
+<br /><ol><li>
+To change Language see <strong>/Omni/locale/English.php</strong></li>
+<li>To change anything in the footer see <strong>Omni/includes/footer.php</li>
+<li>To use new Cat image instead of date see the file Omni/includes/render_news-articles.php Find 	$date = 1; change 1 to 0 to use New Cat Image.</li>
+</ol>
+</p>
+</div>
+<!-- CHANGELOG -->
+<div class="titlebar">
+<h3 class="textshadow titletext">Changelog</h3>
+</div>
+<div class="textbox">
+<p class="c2">v 1.00: First Public Release</p>
+</div>
+<!-- SUPPORT -->
+<div class="titlebar">
+<h3 class="textshadow titletext">Support</h3>
+</div>
+<div class="infobox">
+<p class="c2">If you require support for this Addon please visit the PHP-Fusion Mods UK Forum at<br />
+<a href="http://www.phpfusionmods.co.uk/forum/index.php">http://www.phpfusionmods.co.uk/forum/index.php</a></p>
+</div>
+<!-- CREDITS -->
+<div class="titlebar">
+<h3 class="textshadow titletext">Credits</h3>
+</div>
+<div class="infobox">
+<p class="c2">Theme by Craig<br />News Readmore and forum Icons from Stylo Theme by Ion.</p>
+<ul><li>960 Grid System ~ Core CSS by <a href="http://960.gs/">http://960.gs/</a></li>
+<li><strong>Menu function originally from Bifrost Theme</strong> -  <a href="http://www.php-fusion.co.uk">Barspin</a> Modified by <a href="http://www.phpfusionmods.co.uk">PHP-Fusion Mods UK</a></li>
+</ul>
+</div>
+<!-- LICENSING -->
+<div class="titlebar">
+<h3 class="textshadow titletext">Licensing</h3>
+</div>
+<div class="infobox5">
+<p class="c3"><a href="http://www.phpfusionmods.co.uk">PHP-Fusion Mods UK</a> Addons and Themes are Released as free software without warranties under <a href="http://www.fsf.org/licensing/licenses/agpl-3.0.html">GNU Affero GPL</a> v3.<br />
+This addon is free software: you can redistribute it and/or modify it under the terms of the <a href="http://www.gnu.org/licenses/agpl-3.0.html">GNU Affero General Public License</a>.<br />
+If you do distribute this addon for download on your site you must put a link to <a href="http://www.phpfusionmods.co.uk">PHP-Fusion Mods UK</a> on the downloads Page for update purposes and you will be required to make sure you keep the Download Archive updated with latest versions.<br />
+<br />
+Copyright &copy; <a href="http://www.phpfusionmods.co.uk">PHP-Fusion Mods UK</a> 2014</p>
+</div>
+</div>
+</div>
+</div>
+<!-- README BODY END -->
+</body>
+</html>
